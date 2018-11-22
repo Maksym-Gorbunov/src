@@ -1,28 +1,17 @@
 import java.io.Console;
 
-/**
- * Assignment 1 - Guessing Game
- * 
- * Here's the unfinished source code
- * for the Guesser class. It is your
- * task to complete the missing parts.
- */
 public class Guesser{
   private int low;
   private int high;
 
-  /*
-   * Task 1. Write code here for a constructor
-   * which takes two int arguments and saves
-   * them in the instance variables low and high.
-   *
-   * If you don't remember the syntax for how to write
-   * constructors, revisit the chapter "Classes"
-   * and review the section about constructors.
-   *
-   */
-  
-  // Write the constructor below this line.
+  public Guesser(int low, int high) {
+    if(low > high) {
+      throw new IllegalArgumentException("The first parameter must be lower than the second parameter");
+    } else {
+      this.low = low;
+      this.high = high;
+    }
+  }
 
 
   /*
@@ -37,9 +26,9 @@ public class Guesser{
 
   private void rules(){
     System.out.println("Think of a number between " +
-                       low + " and "  + high);
+            low + " and "  + high);
     System.out.println("I'm going to ask a few questions in order " +
-                       "to guess the number.");
+            "to guess the number.");
     System.out.println("Please answer T for true, and F for false.\n");
   }
 
@@ -47,7 +36,7 @@ public class Guesser{
    * Task 3. Complete the code for the getReply() method.
    * In the current version below, it returns null each
    * call, which is not what this method is supposed to do.
-   * 
+   *
    * Instead, change the method so that it reads a reply
    * from the player, and if it is "T" or "F", we have
    * a valid reply. Return the String that you read from
@@ -71,7 +60,7 @@ public class Guesser{
       middle=low + (high-low)/2;
 
       System.out.println("Is the number less than or equal to " +
-                         middle + "?");
+              middle + "?");
       String reply = getReply();
       if("T".equals(reply)){
         // The number is less than or equal to middle
@@ -91,9 +80,9 @@ public class Guesser{
 
   private void answer(int guess, int numberOfGuesses){
     System.out.println("You were thinking about " +
-                       guess +
-                       " (took me " + numberOfGuesses +
-                       " guesses)");
+            guess +
+            " (took me " + numberOfGuesses +
+            " guesses)");
   }
 
 }
