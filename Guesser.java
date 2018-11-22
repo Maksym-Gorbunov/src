@@ -37,7 +37,7 @@ public class Guesser{
     Scanner sc = new Scanner(System.in);
     while (true){
       reply = sc.nextLine();
-      if(reply.equals("T") || reply.equals("F")) {
+      if(reply != null && (reply.equals("T") || reply.equals("F"))) {
         break;
       } else {
         System.out.println("Please answer T of F!");
