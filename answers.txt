@@ -21,4 +21,40 @@ https://github.com/Maksym-Gorbunov/src
 
 VG
 
+Man kan backa med git reset utan att skapa ny commit ex: 
+
+För säkert skuld testa i annan branch 
+
+git branch max 
+
+git checkout max 
+
+touch remove_me.txt 
+
+git add. 
+
+git commit –m "remove_me.txt was added by max branch” 
+
+rm remove_me.txt 
+
+git reset --hard HEAD 
+
+eller 
+
+git reset --hard 8726536252    (min 7 char log to load, local and before add and commit) 
+
+(git reset ok efter commit but before push) 
+
+ 
+ 
+
+Annan variant är revert, då måste man skappa ny commit i logen 
+
+git revert 87337453        (efter required add, commit, push  -> new log) 
+
+Man har svårt att förstå ibland hur kommer man ut ur “vi” eller “vim": 
+
+Esc : wq Enter  eller   Esc : q! Enter 
+
+  
 
