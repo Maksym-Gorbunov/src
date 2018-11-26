@@ -1,0 +1,24 @@
+https://github.com/Maksym-Gorbunov/src
+
+
+
+○ När använder man add respektive commit? 
+   När man vill addera filer till stage, de filer man skapade nyss eller gjorde något ändringar  
+   add file.txt (addera en fil) 
+   add . (addera alla filer i befintlig katalogen)  
+
+○ Vad är pull repektive push? 
+   push – pusha(kopiera) filer från lokal dator till remote repository, ex GitHub 
+   pull – ladda ner allt från remote repo till lokal dator, det gör man för att synca data och ta den           färska variant i fall någon lagt till något nytt eller ändrade något befintlig      
+
+○ När använder man log respektive status? 
+   Med log man ser alla commits, med status ser man den branch som man är nu på plus alla branches och de filer som måste hanteras, ex ej komitat eller “nothing to commit”... 
+
+○ Hur kan man formulera sig i sina commit-meddelanden? 
+   Man kan beskriva dem ändringar man hade gjort sist, ex “Test.java was created ()”, “Release 1 (simple version, works but not tested by extreme values  or null)” 
+
+
+
+VG
+
+

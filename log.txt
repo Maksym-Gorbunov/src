@@ -1,0 +1,96 @@
+Maksym@DESKTOP-E5MGHTU /cygdrive/c/Java/GuessingGame/src
+$ git log | cat > log.txt
+
+
+
+
+
+commit f18175da5894772ac989e829cd27a2f9e85de481
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Mon Nov 26 07:50:23 2018 +0000
+
+    text files added to GitHub
+
+commit 60a25034765ac31f3c5a5334a2ef04a61159f8c7
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 22:09:14 2018 +0000
+
+    Interval
+
+commit b9b53e6a71b875029cfc00fa26f18b0a146b3bc5
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 17:19:39 2018 +0000
+
+    Release 1, check arguments from command line done
+
+commit 8bca7d215b817f39c2f130ceb810936df613dc7f
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 14:16:31 2018 +0000
+
+    static usage() in GuessinGame was created
+
+commit b0c2e3bb17be61a8628205c778181cfaef9588af
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 13:38:44 2018 +0000
+
+    Task 4 done, start() works correct
+
+commit 6abb84b1914a880981453abe28e3eca71320f352
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 13:29:38 2018 +0000
+
+    NULL check in getReply() was added, now it more safety
+
+commit f39db055ff8f4954ebd4a4b1eaaf1e3541075df8
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 13:12:57 2018 +0000
+
+    TestGetReply created (try to run equal on NULL)
+
+commit 634784aa09a4a9fcb97b8dbc3ac3382b2adbdf14
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 13:00:37 2018 +0000
+
+    getReply() in Guesser
+
+commit 499846c1e9f0a39d72ecf6db0e63d5e115445270
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 12:59:33 2018 +0000
+
+    toString() and start() in Guesser
+
+commit 3c3f8bbf311d355411a9ef23307561edc681687f
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 12:56:42 2018 +0000
+
+    TestGuesser class was created
+
+commit 320dec55c2f68fac33ebda20ae0b273a625a804d
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 12:55:31 2018 +0000
+
+    GuessingGame class was created
+
+commit 068ade76ce77c3a37659b2b9b655c229553ae598
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Thu Nov 22 12:54:05 2018 +0000
+
+    Guesser constructor
+
+commit e91f5b66cb20a71942c0ff785098799c4e8811d5
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Mon Nov 19 13:26:28 2018 +0000
+
+    Guesser.java was added from sigwin with wget command
+
+commit 2bb6a637507d7f1187b869785928b86a334e18d1
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Mon Nov 19 13:13:47 2018 +0000
+
+    .gitignore was added
+
+commit 3ba217af2d1775bff25b8623f19801f078dcec4f
+Author: Maksym-Gorbunov <maxsverige@hotmail.com>
+Date:   Mon Nov 19 14:05:37 2018 +0100
+
+    Initial commit
